@@ -12,7 +12,7 @@ let test = "";
 for (let i = 0; i < longueur; i++) {
 	test += String.fromCharCode(getNumeroAleatoire());
 }
-console.log(test);
+console.log("test : " + test);
 
 let code = "";
 for (let j = 1; j <= 10; j++) {

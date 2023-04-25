@@ -31,4 +31,4 @@ console.log("monTexteBytes : " + monTexteBytes);
 // Retrouver le texte d'origine
 let monTexteOriginal = monTexteBytes.toString(CryptoJS.enc.Utf8);
 
-console.log("monTexteOriginal :" + monTexteOriginal);
+console.log("monTexteOriginal : " + monTexteOriginal);

@@ -4,7 +4,7 @@
 const bcrypt = require("bcrypt");
 
 // fonction asynchrone
-let monTexte = "MikaFinance";
+let monTexte = "Mikackerman";
 (async () => {
 	try {
 		// on définit le salt

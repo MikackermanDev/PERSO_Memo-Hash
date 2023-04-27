@@ -18,7 +18,7 @@ const secret_key = getIdAleatoire(10);
 console.log("secret key : " + secret_key);
 
 // String à crypter
-const monTexte = "MikaFinance";
+const monTexte = "Mikackerman";
 
 // Crypter
 const monTexteCryptoJS = CryptoJS.AES.encrypt(monTexte, secret_key).toString();

@@ -17,10 +17,10 @@ console.log("Id1 : " + getIdAleatoire(50));
 
 const d = new Date();
 let t = d.getTime();
-// console.log("t : " + t);
+console.log("t : " + t);
 
 let s = t.toString().substring(4);
 console.log("s : " + s);
 
-let id = s + getIdAleatoire(20);
-console.log("Id2 : " + id);
+let idFinal = s + getIdAleatoire(20);
+console.log("IdFinal s+(20) : " + idFinal);

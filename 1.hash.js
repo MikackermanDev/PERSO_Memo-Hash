@@ -1,9 +1,10 @@
 // Calling createHash function included in node JS built-in crypto module
 const { createHash } = require("crypto");
 
+const algo = "sha512";
 // Create a function to hash a string with createHash : algorithm sha512, .update (string to Hash) and .digest is the output display ('hex')
 function hasherString(str) {
-	return createHash("sha512").update(str).digest("hex");
+	return createHash(algo).update(str).digest("hex");
 }
 
 let userPassword = "Mikackerman est un génie";

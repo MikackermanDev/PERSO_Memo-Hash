@@ -8,10 +8,10 @@ let monTexte = "Mikackerman";
 (async () => {
 	try {
 		// on définit le salt
-		let salt = await bcrypt.genSalt(10);
+		let salt = await bcrypt.genSalt(12);
+		console.log("salt : " + salt);
 		// hash de monTexte avec utilisation du genSalt
 		let monTexteBCrypt = await bcrypt.hash(monTexte, salt);
-		salt = await bcrypt.genSalt(10);
 		let monTexteBCrypt2 = await bcrypt.hash(monTexte, salt);
 
 		console.log(monTexteBCrypt);

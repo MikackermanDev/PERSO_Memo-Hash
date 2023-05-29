@@ -9,5 +9,5 @@ Test :
 
 Création :
 
--   d'un générateur d'ID perosonnel
+-   d'un générateur d'ID personnel
 -   d'un générateur de mdp personnel
